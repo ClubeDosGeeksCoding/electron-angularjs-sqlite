@@ -1,0 +1,53 @@
+<html ng-app="cdg">
+<head>
+	<title>Clube dos Geeks</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+
+	<!-- jQuery -->
+	<script>window.$ = window.jQuery = require('jquery');</script>
+
+	<!-- Bootstrap -->
+	<script src="bootstrap/js/bootstrap.js"></script>
+
+	<!-- Angular -->
+	<script src="node_modules/angular/angular.js"></script>
+	<!-- Angular - Pagination -->
+	<script src="node_modules/angular-utils-pagination/dirPagination.js"></script>
+
+	<!-- App -->
+	<script src="app.js"></script>
+
+	<!-- Controllers -->
+	<script src="controllers/pessoaController.js"></script>
+
+	<!-- Services -->
+	<script src="services/dbService.js"></script>
+</head>
+<body>
+	<!-- Menu -->
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#/">
+					Clube dos Geeks
+				</a>
+			</div>
+		</div>
+	</nav>
+	<!-- Onde será carregada a view -->
+	<div ng-view="" class="container"></div>
+	<!-- Rodapé -->
+	<nav class="navbar navbar-default navbar-fixed-bottom">
+	  	<div class="container">
+	  		<ul class="nav navbar-nav">
+	  			<li>
+	  				<a href="//clubedosgeeks.com.br">Clube dos Geeks</a>
+	  			</li>
+	  			<li>
+	  				<a href="//jayralencar.com.br">Jayr Alencar</a>
+	  			</li>
+	  		</ul>
+	   	</div>
+	</nav>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "electron-angularjs-sqlite",
+  "version": "1.0.0",
+  "description": "Um aplicativo simples usando AngularJS, Sqlite, Electron e Bootstrap",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "win32": "electron-packager /. myApp --platform=win32 --arch=ia32"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.0",
+    "electron-packager":"^6.0.0",
+    "sqlite-sync":"^0.2.1",
+    "jquery":"^2.2.2",
+    "angular": "^1.5.1",
+    "angular-route": "^1.5.1",
+    "angular-utils-pagination":"^0.11.0"
+  }
+}
