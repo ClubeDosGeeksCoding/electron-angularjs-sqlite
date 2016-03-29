@@ -7,6 +7,9 @@
     "start": "electron main.js",
     "win32": "electron-packager . myApp --platform=win32 --arch=ia32",
     "win64": "electron-packager . myApp --platform=win32 --arch=x64",
+    "linux32": "electron-packager . myApp --platform=linux --arch=ia32",
+    "linux64": "electron-packager . myApp --platform=linux --arch=x64",
+    "osx": "electron-packager . myApp --platform=darwin --arch=x64",
     "build": "electron-packager . --all"
   },
   "devDependencies": {
