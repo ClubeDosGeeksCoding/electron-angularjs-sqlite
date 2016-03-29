@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "start": "electron main.js",
-    "win32": "electron-packager /. myApp --platform=win32 --arch=ia32"
+    "win32": "electron-packager . myApp --platform=win32 --arch=ia32",
+    "win64": "electron-packager . myApp --platform=win32 --arch=x64"
   },
   "devDependencies": {
     "electron-prebuilt": "^0.36.0",
